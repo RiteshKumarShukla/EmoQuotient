@@ -26,7 +26,7 @@ const Header = () => {
     >
       <LeftSection>
         <img
-          src="https://cdn.imgbin.com/4/2/12/imgbin-emoji-emoticon-smiley-thumb-signal-symbol-emoji-hkpU45q32RmwgDbRxb9hcNWis.jpg"
+          src="https://clipart-library.com/new_gallery/4-43779_how-to-draw-tongue-out-emoji-transparent-purple.png"
           alt="EmoQuotient"
         />
         <Options isOpen={isMenuOpen}>

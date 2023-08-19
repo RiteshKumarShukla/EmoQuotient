@@ -10,6 +10,8 @@ export const HeaderWrapper = styled.header`
   justify-content: space-between;
   align-items: center;
   position: relative;
+  position: sticky; /* Make the header sticky */
+  top: 0; /* Stick to the top of the viewport */
 
   @media (max-width: 768px) {
     padding:20px;
@@ -42,6 +44,7 @@ export const RightSection = styled.div`
 
     &:hover {
       background-color:#7F00FF;
+      font-weight:bold;
     }
   }
 `;
