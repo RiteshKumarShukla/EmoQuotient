@@ -2,12 +2,18 @@ import styled from 'styled-components';
 
 export const HeaderWrapper = styled.header`
   background-color: #ffffff;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding-left:80px;
+  padding-right:80px;
+  padding-top:20px;
+  padding-bottom : 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+
+  @media (max-width: 768px) {
+    padding:20px;
+  }
 `;
 
 export const LeftSection = styled.div`
@@ -26,17 +32,16 @@ export const RightSection = styled.div`
   align-items: center;
 
   button {
-    padding: 10px 20px;
-    background-color: #ff6b6b;
+    padding: 20px 30px;
+    background-color:black;
     color: #fff;
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
     &:hover {
-      background-color: #e24d4d;
+      background-color:#7F00FF;
     }
   }
 `;
@@ -44,12 +49,12 @@ export const RightSection = styled.div`
 export const Options = styled.div`
   ul {
     list-style: none;
-    margin-left:500px;
+    margin-left:380px;
     padding: 0;
     display:flex;   
 
     li {
-      margin-left:30px;
+      margin-left:50px;
     }
 
     a {
@@ -59,7 +64,7 @@ export const Options = styled.div`
       transition: color 0.3s ease-in-out;
 
       &:hover {
-        color: #ff6b6b;
+        color:#7F00FF;
       }
     }
   }
@@ -103,6 +108,6 @@ export const MobileMenuButton = styled.button`
   }
 
   &:hover {
-    color: #ff6b6b;
+    color:#7F00FF;
   }
 `;
