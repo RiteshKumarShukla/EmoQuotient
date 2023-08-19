@@ -1,0 +1,26 @@
+.self {
+  font-family: sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+  @media screen and (max-width:768px) {
+    width: 90%;
+  }
+}
+.vertical-timeline::before {
+  background: #7f00ff !important;
+}
+.top{
+    text-align: left;
+}
+.top>h1{
+    font-weight: bold;
+}
+.top>h1>span{
+    font-size: 40px;
+}
+
+.vertical-timeline-element{
+    text-align: left;
+}

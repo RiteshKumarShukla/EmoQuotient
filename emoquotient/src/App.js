@@ -5,6 +5,7 @@ import EQSection2 from './components/EQ/EQ2';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import OpenVacancies from './components/OpenVacancies/OpenVacancies';
+import Self  from './components/SelfImrovement/SelfImprovement';
 import Test from './components/Test/Test';
 import WorkWithUsSection from './components/Work/WorkWithUs';
 
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <CardSection/>
       <EQSection/>
+      <Self/>
       <EQSection2/>
       <Test/>
       <WorkWithUsSection/>
