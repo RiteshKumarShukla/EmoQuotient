@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
   background-color: #ffffff;
-  padding-left:80px;
-  padding-right:80px;
-  padding-top:20px;
-  padding-bottom : 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +14,7 @@ export const HeaderWrapper = styled.header`
   top: 0; /* Stick to the top of the viewport */
 
   @media (max-width: 768px) {
-    padding:20px;
+    padding: 20px;
   }
 `;
 
@@ -35,7 +35,7 @@ export const RightSection = styled.div`
 
   button {
     padding: 20px 30px;
-    background-color:black;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -43,8 +43,16 @@ export const RightSection = styled.div`
     transition: background-color 0.3s ease-in-out;
 
     &:hover {
-      background-color:#7F00FF;
-      font-weight:bold;
+      background-color: #7f00ff;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      padding: 15px 25px;
+      background-color: black;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
     }
   }
 `;
@@ -52,12 +60,12 @@ export const RightSection = styled.div`
 export const Options = styled.div`
   ul {
     list-style: none;
-    margin-left:380px;
+    margin-left: 380px;
     padding: 0;
-    display:flex;   
+    display: flex;
 
     li {
-      margin-left:50px;
+      margin-left: 50px;
     }
 
     a {
@@ -67,13 +75,13 @@ export const Options = styled.div`
       transition: color 0.3s ease-in-out;
 
       &:hover {
-        color:#7F00FF;
+        color: #7f00ff;
       }
     }
   }
 
   @media (max-width: 768px) {
-    display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
+    display: ${({ isOpen }) => (isOpen ? "block" : "none")};
     position: absolute;
     top: 100%;
     left: 0;
@@ -111,6 +119,6 @@ export const MobileMenuButton = styled.button`
   }
 
   &:hover {
-    color:#7F00FF;
+    color: #7f00ff;
   }
 `;
