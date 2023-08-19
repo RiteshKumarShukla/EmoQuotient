@@ -1,5 +1,6 @@
 import './App.css';
 import EQSection from './components/EQ/EQ';
+import EQSection2 from './components/EQ/EQ2';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import OpenVacancies from './components/OpenVacancies/OpenVacancies';
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Header/>
       <EQSection/>
+      <EQSection2/>
       <Test/>
       <WorkWithUsSection/>
       <OpenVacancies/>
