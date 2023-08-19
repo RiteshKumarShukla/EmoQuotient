@@ -19,6 +19,7 @@ const Headline = styled.h1`
   color: #333;
   text-align: left;
   margin-left: 13%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   
   @media (max-width: 768px) {
     margin:20px;

@@ -62,6 +62,7 @@ const Headline = styled.h1`
   font-size: 40px;
   font-weight: bold;
   color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 `;
 
 const SubHeadline = styled.h2`

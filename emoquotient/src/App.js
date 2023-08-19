@@ -6,20 +6,23 @@ import EQSection2 from './components/EQ/EQ2';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Hero from './components/HeroSection/Hero';
+import Mid from './components/MidSection/Mid';
 import OpenVacancies from './components/OpenVacancies/OpenVacancies';
 import Self  from './components/SelfImrovement/SelfImprovement';
 import Test from './components/Test/Test';
 import WorkWithUsSection from './components/Work/WorkWithUs';
 
+
+
 function App() {
   return (
     <div className="App">
       <MainAnimation/>
-
       <Header/>
       <Hero/>
-      <CardSection/>
+      <Mid/>
       <EQSection/>
+      <CardSection/>
       <Self/>
       <EQSection2/>
       <Test/>
