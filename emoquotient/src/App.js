@@ -1,4 +1,5 @@
 import './App.css';
+import CardSection from './components/Cards/Card';
 import EQSection from './components/EQ/EQ';
 import EQSection2 from './components/EQ/EQ2';
 import Footer from './components/Footer/Footer';
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <CardSection/>
       <EQSection/>
       <EQSection2/>
       <Test/>
