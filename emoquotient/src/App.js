@@ -1,4 +1,5 @@
 import './App.css';
+import MainAnimation from './components/Background/MainAnimation';
 import CardSection from './components/Cards/Card';
 import EQSection from './components/EQ/EQ';
 import EQSection2 from './components/EQ/EQ2';
@@ -12,6 +13,7 @@ import WorkWithUsSection from './components/Work/WorkWithUs';
 function App() {
   return (
     <div className="App">
+      <MainAnimation/>
       <Header/>
       <CardSection/>
       <EQSection/>
