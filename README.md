@@ -2,20 +2,7 @@
 EmoQuotient: Unlocking Your Emotional Potential
 Certainly! Here's a template for your `README.md` file that you can use for your website:
 
-```markdown
-# Social Skill Rating Website
-
 A modern and user-friendly website that allows users to receive anonymous ratings on their social skills from friends, family, and co-workers.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -53,13 +40,13 @@ Follow these steps to get the website up and running on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/social-skill-rating.git
+   git clone https://github.com/RiteshKumarShukla/EmoQuotient.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd social-skill-rating
+   cd emoquotient
    ```
 
 3. Install the dependencies:
