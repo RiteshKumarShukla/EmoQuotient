@@ -1,8 +1,5 @@
 # EmoQuotient
 EmoQuotient: Unlocking Your Emotional Potential
-Certainly! Here's a template for your `README.md` file that you can use for your website:
-
-A modern and user-friendly website that allows users to receive anonymous ratings on their social skills from friends, family, and co-workers.
 
 ## Introduction
 
